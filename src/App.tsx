@@ -1,22 +1,23 @@
 import React, { useState } from 'react';
 import './App.css';
 import QUOTES from './assets/quoteList.json';
+import { HeaderBar} from './components/HeaderBar'
 import { QuoteBox } from './components/QuoteBox';
-import { ControlButton } from './components/ControlButtons';
+import { ControlQuoteButton } from './components/ControlQuoteButtons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  {Quote} from './interfaces/Quote';
 
 function App() {
-  const [seeQuote , setSeeQuote] = useState<Quote>(QUOTES[0])
+  const [seeQuote , setSeeQuote] = useState<Quote>(QUOTES[Math.floor(Math.random() * QUOTES.length)])
 
   return (
     <div className="App">
-      <div>
-        <h1>Some Big Texts here</h1>
-        <p>Some small texts here</p>        
+      <HeaderBar></HeaderBar>
+      <div className ="title">
+        <h1>Random Motivational Quote!!!</h1>        
       </div>
         <QuoteBox quote = {seeQuote}></QuoteBox>
-        <ControlButton setQuote = {setSeeQuote}></ControlButton>
+        <ControlQuoteButton setQuote = {setSeeQuote}></ControlQuoteButton>
     </div>
   );
 }
