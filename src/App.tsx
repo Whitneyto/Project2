@@ -1,18 +1,23 @@
 import React, { useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { Prompt } from './components/Prompt';
-import { SwapButton } from './components/SwapButton';
+import QUOTES from './assets/quoteList.json';
+import { QuoteBox } from './components/QuoteBox';
+import { Container } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
-  const [prompt, setPrompt] = useState<string>("Text-trial");
+  const [quote, setQuote] = useState<Quote>("Text-trial");
 
   return (
     <div className="App">
       <div>
-        <Prompt text = {prompt}></Prompt>
-        <SwapButton></SwapButton>
+        <h1>Some Big Texts here</h1>
+        <p>Some small texts here</p>
       </div>
+      <Container>
+        <QuoteBox></QuoteBox>
+      </Container>
     </div>
   );
 }
