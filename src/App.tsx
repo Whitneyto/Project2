@@ -7,14 +7,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import  {Quote} from './interfaces/Quote';
 
 function App() {
-  const [seeQuote , setSeeQuote] = useState<Quote>(QUOTES[0] as Quote)
+  const [seeQuote , setSeeQuote] = useState<Quote>(QUOTES[0])
 
   return (
     <div className="App">
       <div>
         <h1>Some Big Texts here</h1>
-        <p>Some small texts here</p>
-        
+        <p>Some small texts here</p>        
       </div>
         <QuoteBox quote = {seeQuote}></QuoteBox>
         <ControlButton setQuote = {setSeeQuote}></ControlButton>

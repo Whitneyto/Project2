@@ -2,6 +2,18 @@
   text-align: center;
 }
 
+.quote-area {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  background-color: rgb(199, 198, 198);
+  height: 10em;
+  width: 50em;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
