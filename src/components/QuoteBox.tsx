@@ -1,15 +1,7 @@
-import { Button, Row, Col } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Quote } from "../interfaces/Quote";
 
-export function QuoteBox(): JSX.Element {
-    return <Row>
-        <div className = "quote-area">
-            col2
+export function QuoteBox({quote} : {quote:Quote}): JSX.Element {
+    return <div className = "quote-area">
+            {quote.QuoteItem}
         </div>
-        
-        <div className = "side-buttons">
-            <Button>Another Background Picture!</Button>
-            <Button>Another Quote!</Button>
-        </div>
-    </Row>
 }
