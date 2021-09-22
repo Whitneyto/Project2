@@ -2,16 +2,48 @@
   text-align: center;
 }
 
+.title {
+  margin-top: 7em;
+  margin-bottom: 2em;
+}
+
+.navbar-brand >img {
+  float:left;
+  height:50px;
+  width:50px;
+}
+
 .quote-area {
   margin-left: auto;
   margin-right: auto;
+  border-radius: 20px;
   display: flex;
   justify-content: center;
-  align-content: center;
   flex-direction: column;
-  background-color: rgb(199, 198, 198);
-  height: 10em;
+  background-color: rgb(235, 235, 235);
+  height: 20em;
   width: 50em;
+}
+
+.quote-area > .auth{
+  display: flex;
+  justify-content: end;
+  margin-right: 3em;
+  font-size: 1.2em;
+  margin-top: 1em;
+  font-style: italic;
+}
+
+.quote-area > .qte {
+  font-style: italic;
+  font-size: 1.8em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.quote-change{
+  margin-top: 1em;
+  background-color: grey;
 }
 
 @media (prefers-reduced-motion: no-preference) {
