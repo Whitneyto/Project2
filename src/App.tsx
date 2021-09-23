@@ -6,6 +6,7 @@ import { QuoteBox } from './components/QuoteBox';
 import { ControlQuoteButton } from './components/ControlQuoteButtons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  {Quote} from './interfaces/Quote';
+import { FooterBar } from './components/FooterBar';
 
 function App() {
   const [seeQuote , setSeeQuote] = useState<Quote>(QUOTES[Math.floor(Math.random() * QUOTES.length)])
@@ -18,6 +19,7 @@ function App() {
       </div>
         <QuoteBox quote = {seeQuote}></QuoteBox>
         <ControlQuoteButton setQuote = {setSeeQuote}></ControlQuoteButton>
+        <FooterBar></FooterBar>
     </div>
   );
 }
