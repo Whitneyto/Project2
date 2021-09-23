@@ -5,7 +5,7 @@ import '../App.css';
 export function HeaderBar(): JSX.Element {
     return <div>
         <nav className="navbar navbar-expand-sm bg-dark navbar-dark flex-column flex-sm-row">
-            <a className="navbar-brand" href="index.html"><img src={logo} alt="" /> </a>
+            <a className="navbar-brand" href="https://whitneyto.github.io/FirstProject/"><img src={logo} alt="" /> </a>
             <ul className="navbar-nav">
                 <li className="nav-item">
                     <a className="nav-link" href="https://whitneyto.github.io/FirstProject/">Home</a>
