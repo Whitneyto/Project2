@@ -2,9 +2,9 @@
   text-align: center;
 }
 
-.title {
-  margin-top: 7em;
-  margin-bottom: 2em;
+.header-1 {
+  margin-top: 3em;
+  margin-bottom: 1em;
 }
 
 .navbar-brand >img {
@@ -44,6 +44,12 @@
 .quote-change{
   margin-top: 1em;
   background-color: grey;
+}
+
+.description{
+  font-size: 1.8em;
+  margin-left: 4em;
+  margin-right: 4em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
