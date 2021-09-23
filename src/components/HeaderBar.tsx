@@ -8,7 +8,7 @@ export function HeaderBar(): JSX.Element {
             <a className="navbar-brand" href="index.html"><img src={logo} alt="" /> </a>
             <ul className="navbar-nav">
                 <li className="nav-item">
-                    <a className="nav-link" href="index.html">Home</a>
+                    <a className="nav-link" href="https://whitneyto.github.io/FirstProject/">Home</a>
                 </li>
                 <li className="nav-item">
                     <a className="nav-link" href="#">Projects</a>
