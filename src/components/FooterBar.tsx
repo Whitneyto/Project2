@@ -22,13 +22,13 @@ export function FooterBar(): JSX.Element {
                         <a className="footer-link" href="https://whitneyto.github.io/FirstProject/"> Home</a>
                     </li>
                     <li className="row-item">
-                        <a className="footer-link" href="">Projects</a>
+                        <a className="footer-link" href="https://whitneyto.github.io/FirstProject/index.html#block-proj">Projects</a>
                     </li>
                     <li className="row-item">
-                        <a className="footer-link" href="#"> About</a>
+                        <a className="footer-link" href="https://whitneyto.github.io/FirstProject/about.html"> About</a>
                     </li>
                     <li className="row-item">
-                        <a className="footer-link" href="#">Contacts</a>
+                        <a className="footer-link" href="https://whitneyto.github.io/FirstProject/contact.html">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -38,10 +38,10 @@ export function FooterBar(): JSX.Element {
 
                     <h4>Projects</h4>
                     <li className="row-item">
-                        <a className="footer-link" href="#">Project 1</a>
+                        <a className="footer-link" href="https://whitneyto.github.io/Project2/">Motivational Quotes</a>
                     </li>
                     <li className="row-item">
-                        <a className="footer-link" href="#">Project 2</a>
+                        <a className="footer-link" href="https://whitneyto.github.io/Project3/">Calculator</a>
                     </li>
                     <li className="row-item">
                         <a className="footer-link" href="#"> Project 3</a>
@@ -67,11 +67,11 @@ export function FooterBar(): JSX.Element {
                     </li>
                     <li className="row-item">
                         <img src={githubIcon}/>
-                        <a className ="footer-link" href="https://github.com/Whitneyto/FirstProject"> Github Page</a>
+                        <a className ="footer-link" href="https://github.com/Whitneyto/Project2"> Github Page</a>
                     </li>
                     <li className="row-item">
                         <img src={phoneIcon}/>
-                        <a className ="footer-link" href="tel:+13028039795">+1 (###) ### ####</a>
+                        <a className ="footer-link" href="tel:+13028039795">+1 (302)-803-9795</a>
                     </li>
                 </ul>
             </div>
